@@ -1,0 +1,9 @@
+.posteditor_contain {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+
+.default_margin {
+  margin: 0 0 10px 0;
+}
