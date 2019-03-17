@@ -1,0 +1,32 @@
+.postitem_contain {
+  width: 300px;
+  margin: 40px;
+  border: 1px solid black;
+  padding: 0px 10px 10px 10px;
+  font-family: cursive;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 4px;
+}
+
+.buttongroup_like {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.postitem_content {
+  height: 300px;
+  line-height: 30px;
+  position: relative;
+  overflow-x: auto;
+}
+
+.postitem_title {
+  /* 字体奇怪一点 */
+  font-size: 24px;
+}
+
+.postitem_simplecontent {
+  text-indent: 2rem;
+}

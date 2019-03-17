@@ -1,3 +1,5 @@
 .post_list_contain {
+  margin: 10px 20px;
   border: 1px solid black;
+  border-radius: 4px;
 }

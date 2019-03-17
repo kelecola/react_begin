@@ -1,5 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Provider } from 'react-redux'
+import Header from './head/Header'
+import Postlist from './component/PostList'
+import store from './store'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const renderEl = (
+  <Provider store = {store}>
+    <Header />
+    <Postlist />
+  </Provider>
+)
+
+ReactDOM.render(renderEl, document.getElementById('root'));
